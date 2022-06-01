@@ -37,3 +37,9 @@ video.forEach(i => {
 	observer.observe(i)
 })
 ```
+
+---
+### Work experience
+The main commercial experience on freelance exchanges.
+I have some experience of working in a team.
+Some of the work done can be seen on [my website](https://shpvsk.ru/works/)
