@@ -21,3 +21,19 @@ I'm currently a freelancer
 * WEBPACK
 * WordPress
 * Figma & Photoshop
+
+---
+### Code examples
+```
+const video = document.querySelectorAll('video')
+
+observer = new IntersectionObserver((entries) => {
+	entries.forEach(entry => {
+		entry.intersectionRatio > 0 ? entry.target.play() : entry.target.pause()
+	})
+})
+
+video.forEach(i => {
+	observer.observe(i)
+})
+```
