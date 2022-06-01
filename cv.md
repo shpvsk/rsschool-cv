@@ -43,3 +43,8 @@ video.forEach(i => {
 The main commercial experience on freelance exchanges.
 I have some experience of working in a team.
 Some of the work done can be seen on [my website](https://shpvsk.ru/works/)
+
+---
+### Education and courses
+* WayUp: Web designer - Freelance code
+* WebForMySelf: JavaScript. The Complete Guide to Modern Web Development
