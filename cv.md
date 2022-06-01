@@ -24,7 +24,7 @@ I'm currently a freelancer
 
 ---
 ### Code examples
-```
+```javascript
 const video = document.querySelectorAll('video')
 
 observer = new IntersectionObserver((entries) => {
