@@ -9,3 +9,15 @@ __Website:__ [shpvsk.ru](https://shpvsk.ru/)
 ### About myself
 I'm in my 30s and want to be a full stack programmer \
 I'm currently a freelancer
+
+---
+### Skills
+* HTML
+* CSS, SASS
+* JS
+* PHP
+* GIT
+* GULP
+* WEBPACK
+* WordPress
+* Figma & Photoshop
