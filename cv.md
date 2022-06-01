@@ -43,7 +43,6 @@ video.forEach(i => {
 The main commercial experience on freelance exchanges.
 I have some experience of working in a team.
 Some of the work done can be seen on [my website](https://shpvsk.ru/works/)
-<<<<<<< HEAD
 
 ---
 ### Education and courses
@@ -54,5 +53,3 @@ Some of the work done can be seen on [my website](https://shpvsk.ru/works/)
 ### Languages
 EPAM English test result: A1. \
 I try to learn English in every possible way.
-=======
->>>>>>> f8bec14... docs: add work experience
