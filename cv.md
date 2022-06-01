@@ -48,3 +48,8 @@ Some of the work done can be seen on [my website](https://shpvsk.ru/works/)
 ### Education and courses
 * WayUp: Web designer - Freelance code
 * WebForMySelf: JavaScript. The Complete Guide to Modern Web Development
+
+---
+### Languages
+EPAM English test result: A1. \
+I try to learn English in every possible way.
