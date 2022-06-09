@@ -59,6 +59,28 @@ fieldset {
   border: none;
 }
 
+pre {
+	margin: 0;
+	padding-left: 2ch;
+	font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+	font-size: 17px;
+	tab-size: 2;
+	white-space: normal;
+	transition: tab-size 0.2s;
+}
+
+pre code {
+	display: list-item;
+	counter-increment: pre;
+	white-space: pre-wrap;
+
+}
+
+pre code::marker {
+	color: darkgray;
+	content: counter(pre, decimal-leading-zero);
+}
+
 h1 {
 	font-family: 'Montserrat 300';
 	font-weight: 300;
@@ -67,6 +89,7 @@ h1 {
 
 h2 {
 	max-width: 290px;
+	margin-bottom: 35px;
 	font-family: 'Montserrat 300';
 	font-weight: 300;
 	font-size: 30px;
@@ -179,10 +202,6 @@ h2 {
 
 .skills {
 	width: 50%;
-}
-
-.skills__title {
-	margin-bottom: 35px;
 }
 
 .skills-list {
