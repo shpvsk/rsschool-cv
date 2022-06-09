@@ -57,8 +57,8 @@ img {
 
 fieldset {
 	padding: 0;
-  margin: 0;
-  border: none;
+	margin: 0;
+	border: none;
 }
 
 pre {
@@ -150,6 +150,12 @@ h2 {
 	0% {transform: scale(1);}
 	50% {transform: scale(1.4);}
 	100% {transform: scale(1.2);}
+}
+
+.nav {
+	align-self: flex-start;
+	position: sticky;
+	top: 20px;
 }
 
 .nav-list {
