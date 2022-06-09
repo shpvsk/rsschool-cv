@@ -1,4 +1,13 @@
 @font-face {
+	font-family: 'Montserrat 100';
+	src: url('Montserrat-Thin.woff2') format('woff2'),
+			url('Montserrat-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
 	font-family: 'Montserrat 300';
 	src: url('Montserrat-Light.woff2') format('woff2'),
 			url('Montserrat-Light.woff') format('woff');
