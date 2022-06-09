@@ -33,6 +33,16 @@ body {
 	padding: 0 15px;
 }
 
+.active-section {
+	position: relative;
+	animation: animSection 1s 1 forwards;
+}
+
+@keyframes animSection {
+	0% {background-color: transparent;}
+	50% {background-color: rgba(255, 255, 255, 0.2);}
+}
+
 ul,
 li,
 p,
@@ -91,7 +101,7 @@ h1 {
 
 h2 {
 	max-width: 290px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 	font-family: var(--font-300);
 	font-weight: 300;
 	font-size: 30px;
@@ -161,6 +171,7 @@ h2 {
 .nav-list {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-end;
 	max-width: 350px;
 }
 
@@ -199,15 +210,12 @@ h2 {
 
 
 /* Skills */
-.wrapper {
-	padding-top: 90px;
-}
-
 .wrapper .container {
 	display: flex;
 }
 
 .skills {
+	padding-top: 90px;
 	width: 50%;
 }
 
@@ -245,6 +253,11 @@ h2 {
 	margin-right: 5px;
 }
 
+
+/* Code */
+.code {
+	padding-top: 90px;
+}
 
 /* About */
 .about {
