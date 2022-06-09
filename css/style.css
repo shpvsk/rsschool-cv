@@ -294,3 +294,28 @@ h2 {
 	height: 1px;
 	background-color: rgba(255, 255, 255, 0.3);
 }
+
+
+/* footer */
+.footer {
+	padding: 40px 0;
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-link:hover {
+	animation: iconAnim 0.3s 1 forwards;
+}
+
+.footer-img_github {
+	width: 40px;
+	height: 40px;
+}
+
+.footer-img_rsschool {
+	width: 98px;
+}
