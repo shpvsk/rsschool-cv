@@ -28,6 +28,7 @@ body {
 	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 ul,
@@ -52,6 +53,25 @@ img {
 	vertical-align: top;
 }
 
+fieldset {
+	padding: 0;
+  margin: 0;
+  border: none;
+}
+
+h1 {
+	font-family: 'Montserrat 300';
+	font-weight: 300;
+	font-size: 40px;
+}
+
+h2 {
+	max-width: 290px;
+	font-family: 'Montserrat 300';
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+}
 
 /* header */
 .header {
@@ -66,12 +86,6 @@ img {
 .header-info {
 	display: flex;
 	align-items: center;
-}
-
-.header-info__title {
-	font-family: 'Montserrat 300';
-	font-weight: 300;
-	font-size: 40px;
 }
 
 .header-info__subtitle {
@@ -150,4 +164,53 @@ img {
 
 .nav-list__link:hover:before {
 	width: 100%;
+}
+
+
+
+/* Skills */
+.wrapper {
+	padding-top: 90px;
+}
+
+.wrapper .container {
+	display: flex;
+}
+
+.skills {
+	width: 50%;
+}
+
+.skills__title {
+	margin-bottom: 35px;
+}
+
+.skills-list {
+}
+
+.skills-list__rating {
+	display: flex;
+	justify-content: space-between;
+	max-width: 250px;
+	width: 100%;
+}
+
+.skills-list__rating:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.skills-list__title {}
+
+.skills-list__group {
+	display: flex;
+	align-items: center;
+}
+
+.skills-list__icon {
+	width: 20px;
+	height: 20px;
+}
+
+.skills-list__icon:not(:last-child) {
+	margin-right: 5px;
 }
