@@ -220,7 +220,30 @@
 						</fieldset>
 					</div>
 				</section>
-
+				<!-- code -->
+				<section class="code" id="code">
+					<h2 class="code__title">
+						Code examples
+					</h2>
+					<pre>
+						<code>&lt;script&gt;</code>
+						<code>	const video = document.querySelectorAll('video')</code>
+						<code>	const observer = new IntersectionObserver((entries) => {</code>
+						<code>		entries.forEach(entry => {</code>
+						<code>			if(entry.intersectionRatio > 0) {</code>
+						<code>				entry.target.play()</code>
+						<code>			} else {</code>
+						<code>				entry.target.pause() </code>
+						<code>			}</code>
+						<code>		})</code>
+						<code>	})</code>
+						<code>	</code>
+						<code>	video.forEach(i => {</code>
+						<code>		observer.observe(i)</code>
+						<code>	})</code>
+						<code>&lt;/script&gt;</code>
+					</pre>
+				</section>
 			</div>
 		</div>
 	</main>
