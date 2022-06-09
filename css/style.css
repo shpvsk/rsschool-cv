@@ -240,6 +240,7 @@ h2 {
 }
 
 .about-subtitle {
+	font-family: var(--font-100);
 	line-height: 156.9%;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.025em;
 }
