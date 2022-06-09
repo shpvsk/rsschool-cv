@@ -241,6 +241,27 @@ h2 {
 
 .about-subtitle {
 	font-family: var(--font-100);
-	line-height: 156.9%;
+	font-size: 18px;
+	line-height: 1.4em;
 	letter-spacing: 0.025em;
+}
+
+
+
+/* Experience */
+.experience {
+	padding-top: 90px;
+}
+
+.experience-subtitle {
+	font-family: var(--font-100);
+	font-size: 18px;
+	line-height: 1.4em;
+	letter-spacing: 0.025em;
+}
+
+.experience-link {
+	color: var(--white);
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
