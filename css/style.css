@@ -331,3 +331,8 @@ h2 {
 .footer-img_rsschool {
 	width: 98px;
 }
+
+.footer-text {
+	font-size: 12px;
+	align-self: flex-end;
+}
