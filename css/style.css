@@ -215,7 +215,7 @@ h2 {
 }
 
 .skills {
-	padding-top: 90px;
+	padding-top: 80px;
 	width: 50%;
 }
 
@@ -256,12 +256,12 @@ h2 {
 
 /* Code */
 .code {
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
 /* About */
 .about {
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
 .about-subtitle {
@@ -275,7 +275,7 @@ h2 {
 
 /* Experience */
 .experience {
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
 .experience-subtitle {
@@ -294,7 +294,7 @@ h2 {
 
 /* Education */
 .education {
-	padding: 90px 0;
+	padding: 80px 0;
 }
 
 .education-list {
