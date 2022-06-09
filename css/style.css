@@ -212,16 +212,16 @@ h2 {
 }
 
 .skills-list {
+	max-width: 290px;
 }
 
-.skills-list__rating {
+.skills-list__item {
 	display: flex;
 	justify-content: space-between;
-	max-width: 250px;
 	width: 100%;
 }
 
-.skills-list__rating:not(:last-child) {
+.skills-list__item:not(:last-child) {
 	margin-bottom: 10px;
 }
 
@@ -235,6 +235,10 @@ h2 {
 .skills-list__icon {
 	width: 20px;
 	height: 20px;
+}
+
+.skills-list__icon_no-active {
+	opacity: 0.1;
 }
 
 .skills-list__icon:not(:last-child) {
