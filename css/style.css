@@ -133,18 +133,17 @@ h2 {
 	align-items: center;
 }
 
-.header-social__item {
-	margin-right: 20px;
+.header-social__item:not(:last-child) {
+	margin-right: 10px;
 }
 
 .header-social__img {
 	width: 40px;
 	height: 40px;
-	transition: all 3s ease;
 }
 
 .header-social__img:hover {
-	animation: iconAnim 0.3s both;
+	animation: iconAnim 0.3s 1 forwards;
 }
 
 @keyframes iconAnim {
