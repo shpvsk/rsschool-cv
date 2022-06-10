@@ -27,10 +27,8 @@ I'm currently a freelancer
 ```javascript
 const video = document.querySelectorAll('video')
 
-observer = new IntersectionObserver((entries) => {
-	entries.forEach(entry => {
-		entry.intersectionRatio > 0 ? entry.target.play() : entry.target.pause()
-	})
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach(entry => entry.intersectionRatio > 0 ? entry.target.play() : entry.target.pause() )
 })
 
 video.forEach(i => {
