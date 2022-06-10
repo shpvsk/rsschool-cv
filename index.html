@@ -4,6 +4,15 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Metadata -->
+	<meta name="description" content="CV Maxim Shipovskiy">
+	<meta property="og:title" content="Maxim Shipovskiy Junior Frontend Developer">
+	<meta property="og:description" content="Brief information about me">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="img/metadata/og-index.jpg">
+	<!-- Favicon -->
+	<link class="favicon" rel="icon" href="img/metadata/favicon.ico" type="image/x-icon">
+	<link class="favicon" rel="shortcut icon" href="img/metadata/favicon.ico" type="image/x-icon">
 	<title>Maxim Shipovskiy | CV</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -46,33 +55,33 @@
 					</div>
 				</div>
 				<div class="burger-menu">
-					<a href="#" class="burger-menu__btn">
+					<a href="#" title="Burger menu" class="burger-menu__btn" aria-label="Burger menu">
 						<span class="burger-menu__lines"></span>
 					</a>
 					<nav class="nav">
 						<ul class="nav-list">
 							<li class="nav-list__item">
-								<a href="#about" class="nav-list__link">
+								<a href="#about" title="About me" aria-label="About me" class="nav-list__link">
 									About me
 								</a>
 							</li>
 							<li class="nav-list__item">
-								<a href="#experience" class="nav-list__link">
+								<a href="#experience" title="Experience" aria-label="Experience" class="nav-list__link">
 									Experience
 								</a>
 							</li>
 							<li class="nav-list__item">
-								<a href="#skills" class="nav-list__link">
+								<a href="#skills" title="Skills" aria-label="Skills" class="nav-list__link">
 									Skills
 								</a>
 							</li>
 							<li class="nav-list__item">
-								<a href="#education" class="nav-list__link">
+								<a href="#education" title="Education" aria-label="Education" class="nav-list__link">
 									Education
 								</a>
 							</li>
 							<li class="nav-list__item">
-								<a href="#code" class="nav-list__link">
+								<a href="#code" title="Code" aria-label="Code" class="nav-list__link">
 									Code
 								</a>
 							</li>
@@ -232,9 +241,9 @@
 					<pre>
 						<code>&lt;script&gt;</code>
 						<code>	const video = document.querySelectorAll('video')</code>
-						<code>	const observer = new IntersectionObserver((entries) => {</code>
-						<code>		entries.forEach(entry => {</code>
-						<code>			if(entry.intersectionRatio > 0) {</code>
+						<code>	const observer = new IntersectionObserver((entries) =&gt; {</code>
+						<code>		entries.forEach(entry =&gt; {</code>
+						<code>			if(entry.intersectionRatio &gt; 0) {</code>
 						<code>				entry.target.play()</code>
 						<code>			} else {</code>
 						<code>				entry.target.pause() </code>
@@ -242,7 +251,7 @@
 						<code>		})</code>
 						<code>	})</code>
 						<code>	</code>
-						<code>	video.forEach(i => {</code>
+						<code>	video.forEach(i =&gt; {</code>
 						<code>		observer.observe(i)</code>
 						<code>	})</code>
 						<code>&lt;/script&gt;</code>
